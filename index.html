@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- testing-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshat Arora - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Profile.jpeg" alt="Ishita Ahuja" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Akshat Arora">Akshat Arora</h1>
+
+          <p class="title">Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:akshatarora130@gmail.com" class="contact-link" target="_blank">akshatarora130@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Github</p>
+
+              <a href="https://github.com/akshatarora130" class="contact-link" target="_blank">akshatarora130</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/akshatarora0013/" class="contact-link" target="_blank">akshatarora0013</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A very competitive under‐graduate student who is enrolled in computer science engineering.
+          </p>
+
+          <p>
+            Seeking opportunities to apply classroom learning
+            to real‐world projects and contribute to cutting‐edge advancements in the field of computer science.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Development</h4>
+
+                <p class="service-item-text">
+                  Combining frontend and backend development to create complete, functional applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Development</h4>
+
+                <p class="service-item-text">
+                  Crafting the visual and interactive aspects of a website or application.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                <p class="service-item-text">
+                  Managing server-side logic, databases, and application functionality behind the scenes.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+<!--        <section class="testimonials">-->
+
+<!--          <h3 class="h3 testimonials-title">Testimonials</h3>-->
+
+<!--          <ul class="testimonials-list has-scrollbar">-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-1.png" alt="X" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>X</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Ishita Ahuja is a truly talented industrial designer. Their ability to understand user needs and translate them into innovative, functional products is impressive. I was particularly impressed with their [mention a specific skill or achievement, e.g., creative problem-solving during the design process] on the [name of project] project. They are a valuable asset to any design team and I highly recommend them-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--          </ul>-->
+
+<!--        </section>-->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">SOFTWARE Skills</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li >
+              <img src="./assets/images/HTML.jpg" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/CSS.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/Java.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/Javascript.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/typescript.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/C++.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/Python.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/Git.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/Nodejs.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/expressjs.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/mongoDb.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/reactJS.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/nextJS.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/postgresSQL.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/webRTC.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/Websockets.png" alt="logo" style="border-radius: 10px; width: 100px; height: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/tailwind.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/oAuth.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/P.png" alt="logo" style="border-radius: 10px; width: 100px; height: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/grpc.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/graphQl.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/redis.png" alt="logo" style="border-radius: 10px; width: 100px; height: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/docker.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/cicd.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+            <li >
+              <img src="./assets/images/aws.png" alt="logo" style="border-radius: 10px; width: 100px">
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelors of Engineering (in Computer SCience)</h4>
+
+              <span>2021 — 2025</span>
+              <p class="timeline-text">
+                Chitkara University
+              </p>
+
+              <p class="timeline-text">
+                Chandigarh, India
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">12th standard Science </h4>
+
+              <span>2020 — 2021</span>
+              <p class="timeline-text">
+                Greenway Modern School
+              </p>
+
+              <p class="timeline-text">
+                Roorkee, Uttrakhand
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+<!--        <section class="timeline">-->
+
+<!--          <div class="title-wrapper">-->
+<!--            <div class="icon-box">-->
+<!--              <ion-icon name="briefcase-outline"></ion-icon>-->
+<!--            </div>-->
+
+<!--            <h3 class="h3">Experience</h3>-->
+<!--          </div>-->
+
+<!--          <ol class="timeline-list">-->
+
+<!--            <li class="timeline-item">-->
+
+<!--              <h4 class="h4 timeline-item-title">Khelo Studio</h4>-->
+
+<!--              <span>May 2023 — July 2023</span>-->
+
+<!--              <p class="timeline-text">-->
+<!--                Pune Maharastra (On site)-->
+<!--              </p>-->
+
+<!--              <p class="timeline-text">-->
+<!--                Concept Development, Autodesk Fusion 360 and +6 skills-->
+<!--              </p>-->
+
+<!--          </ol>-->
+
+<!--        </section>-->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list " >
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Full Stack development</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend Development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Backend Development</h5>
+                <data value="100">100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <div class="filter-select-box">
+            <button data-select>
+              <!-- Filter button content -->
+            </button>
+          </div>
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="3D Design">
+              <div class="project-content">
+                <div class="project-img-container">
+                  <img src="./assets/images/casino.png" alt="chatApp" loading="lazy">
+                </div>
+                <div class="project-description">
+                  <h3 class="project-title">Casino</h3>
+                  <p class="project-category">Full Stack Development</p>
+                  <p class="project-category">An Online gambling website.</p>
+                  <p class="project-category">Tech Stack: TypeScript, MongoDB/Mongoose, Express.js, Node.js, React.js, socket.io</p>
+                  <div class="project-buttons">
+                    <a href="https://github.com/akshatarora130/casino" class="behance-button" target="_blank">Github</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="3D Design">
+              <div class="project-content">
+                <div class="project-img-container">
+                  <img src="./assets/images/ChatApp.png" alt="chatApp" loading="lazy">
+                </div>
+                <div class="project-description">
+                  <h3 class="project-title">Chat App</h3>
+                  <p class="project-category">Full Stack Development</p>
+                  <p class="project-category">A real-time chat application enabling one-on-one and group conversations.</p>
+                  <p class="project-category">Tech Stack: TypeScript, MongoDB/Mongoose, Express.js, Node.js, React.js, socket.io</p>
+                  <div class="project-buttons">
+                    <a href="https://github.com/akshatarora130/chat-App" class="behance-button" target="_blank">Github</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="3D Design">
+              <div class="project-content">
+                <div class="project-img-container">
+                  <img src="./assets/images/Deployer.png" alt="Deployer" loading="lazy">
+                </div>
+                <div class="project-description">
+                  <h3 class="project-title">Deployer</h3>
+                  <p class="project-category">Full Stack Development</p>
+                  <p class="project-category">An app similar to Vercel.com, allowing users to deploy their React frontend in a single click.</p>
+                  <p class="project-category">Tech Stack: TypeScript, Express.js, PostgreSQL, Prisma, Node.js, Next.js, OAuth, Redis, AWS</p>
+                  <div class="project-buttons">
+                    <a href="https://github.com/akshatarora130/Deployer" class="behance-button" target="_blank">Backend</a>
+                    <a href="https://github.com/akshatarora130/deployerFrontend" class="behance-button" target="_blank">Frontend</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="3D Design">
+              <div class="project-content">
+                <div class="project-img-container">
+                  <img src="./assets/images/Chess.png" alt="Chesss" loading="lazy">
+                </div>
+                <div class="project-description">
+                  <h3 class="project-title">Chess</h3>
+                  <p class="project-category">Full Stack Development</p>
+                  <p class="project-category">A multiplayer chess application similar to Chess.com.</p>
+                  <p class="project-category">Tech Stack: TypeScript, Next.js, Websockets</p>
+                  <div class="project-buttons">
+                    <a href="https://github.com/akshatarora130/Deployer" class="behance-button" target="_blank">Github</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="3D Design">
+              <div class="project-content">
+                <div class="project-img-container">
+                  <img src="./assets/images/DSA_Practice.png" alt="DSA_Practice" loading="lazy">
+                </div>
+                <div class="project-description">
+                  <h3 class="project-title">DSA_Practice</h3>
+                  <p class="project-category">Full Stack Development</p>
+                  <p class="project-category">A platform for solving DSA problems in multiple languages, similar to LeetCode.</p>
+                  <p class="project-category">Tech Stack: TypeScript, PostgreSQL, Prisma, Node.js, Next.js, OAuth</p>
+                  <div class="project-buttons">
+                    <a href="https://github.com/akshatarora130/DSA_Practice" class="behance-button" target="_blank">Github</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="3D Design">
+              <div class="project-content">
+                <div class="project-img-container">
+                  <img src="./assets/images/Blogging.png" alt="DSA_Practice" loading="lazy">
+                </div>
+                <div class="project-description">
+                  <h3 class="project-title">Blogging App</h3>
+                  <p class="project-category">Full Stack Development</p>
+                  <p class="project-category">A blogging platform requiring email verification for registration. Blogs are published only after ADMIN approval.</p>
+                  <p class="project-category">Tech Stack: JavaScript, MongoDB/Mongoose, Express.js, Handlebars (Hbs), Node.js, Express-session, Nodemailer</p>
+                  <div class="project-buttons">
+                    <a href="https://github.com/akshatarora130/blogging_V" class="behance-button" target="_blank">Github</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact-page" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-details">
+          <div class="contact-detail-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline" class="contact-icon"></ion-icon>
+            </div>
+            <p class="contact-text"><a href="mailto:akshatarora130@gmail.com" class="contact-link" target="_blank">akshatarora130@gmail.com</a></p>
+          </div>
+
+          <div class="contact-detail-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github" ></ion-icon>
+            </div>
+            <p class="contact-text"><a href="https://github.com/akshatarora130" class="contact-link" target="_blank">akshatarora130</a></p>
+          </div>
+
+
+          <div class="contact-detail-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin" ></ion-icon>
+            </div>
+            <p class="contact-text"><a href="https://www.linkedin.com/in/akshtarora0013/" class="contact-link" target="_blank">akshatarora0013</a></p>
+          </div>
+        </section>
+      </article>
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
